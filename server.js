@@ -86,10 +86,11 @@ const MODEL_MAPPING = {
   'google-light': 'google/gemma-4-31b-it',
   'google-lightest': 'meta/muse-glimmer-30b', // was google/gemma-2b
   'google-lighter': 'poolside/laguna-xs-2.1', // was google/gemma-3-4b-it
-  'm3': 'minimaxai/minimax-m3',
+  'm3': 'minimaxai/minimax-m3.1-flash',
   'glm-5.3': 'z-ai/glm-5.3',
   'glm-5.3-flash': 'z-ai/glm-5.3-flash',
-  'deepseek-4.1-flash': 'deepseek-ai/deepseek-v4.1-flash'
+  'deepseek-4.1-flash': 'deepseek-ai/deepseek-v4.1-flash',
+  'mistralai': 'mistralai/mistral-large-4-1t-a52b'
 };
 
 // Used when an unrecognized alias is requested. Must point at a live model.
